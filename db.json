@@ -1,9 +1,11 @@
 {
-"todo":[
+  "todo": [
     {
-        "todo": "Hii",
-        "status": false,
-        "id": 1
-      }
-]
+      "todo": "Hii",
+      "status": false,
+      "id": 1
+    }
+  ],
+  "products": [],
+  "random": []
 }
