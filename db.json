@@ -1,9 +1,27 @@
 {
-"todo":[
+  "todo": [
     {
-        "todo": "Hii",
-        "status": false,
-        "id": 1
-      }
-]
+      "todo": "Hii",
+      "status": false,
+      "id": 1
+    }
+  ],
+  "products": [],
+  "random": [],
+  "dogs": [
+    {
+      "id": 1,
+      "name": "Cherry",
+      "age": 2,
+      "place": "Visakhapatnam",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "name": "Tommy",
+      "age": 3,
+      "place": "Banglore",
+      "gender": "Female"
+    }
+  ]
 }
