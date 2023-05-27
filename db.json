@@ -80,6 +80,40 @@
       "fee": 100,
       "id":2
     }
+  ],"freelancers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "password",
+      "profession": "Web Developer",
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "hourly_rate": 25,
+      "profile_picture": "profile1.jpg",
+      "isBooked": false
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "password": "password",
+      "profession": "Graphic Designer",
+      "skills": ["Photoshop", "Illustrator"],
+      "hourly_rate": 30,
+      "profile_picture": "profile2.jpg",
+      "isBooked": true
+    },
+    {
+      "name": "Vishal More",
+      "profile_picture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAMAAADQI8A6AAAAh1BMVEVHcEy0OgBaGwBaGgCIKQBcGwBdGwClMgBvIgB3JQFqIABUGAB5JgBbGgBVGQBXGgCWLQABBAoADxh1JACrPQFcHgIDAw0DBxUAGCedPgVNFgAAJTcFAwk1EABBEwAAMkkGBw9eIQZXHQMqDQA9EgEGDCgBSWoNDxYSDBAWEBMAbpgTV3gAAAAVSRGJAAAALHRSTlMAOIeCUXx1QWVHbJxgb5SNS/n6ViVm7ePxFKfs176w48I0W9Oe1NeqkXfKk5pX27oAABe2SURBVHicvZyHYuJMr4Zx771hg40xpiTL/V/feaVxpWSTfPsfkUJIwA+SRtJoZrLZ/Hspy+PRgiSJZR2PZfk/uMR3JbUS11XDUGIxQlcPfMVOjv+vECUkTVMioC8GfxrSwGRqum2r6f+YIE0HgqUYkBHGmJhc23UT9X9ktTKVDGNBwAyDWMZSMbOWCEeV/hcwxLJCIDnypxVKI4oRQgS1UFUCjzL+OQzev8GfAwB/4sZiDDQh/Nk1SeDWIxLxhf+WBq85XF18TJ/0YDgYxlRMdxDTtm2oRShM/cc8qWoNMlBM3+iOKswUuonZa24y8wBIeHWCd/Pv/McIrdAaTYPPkL6FI6EqnJgh1EDRBY3gMROVLeYa4T8b8OKqofgSDvemhwRNOJop0XVb4BAP7vPvmeefjPdSXQCsQFgStpRqk/cKnl4xhTcTDniSkHlCVf1HNE8Mo5mQndhbXQq/BEQgSS8HrqABjq6bzKO6qvrfM0aZqLhZ6pKBP8XjwjVcTdMFjxjjWqAxjO3pOn5FPFAP/v6/mqtUVahguNE98SFu+HDJT0vL1MHjDUDA0DTFnHAU3XSJx1bV8Cgd/4tHU60wXFt4ytpaCdHg9Y2RZxCvlz3b80BDOIpmuoZkqTbcR3VN6z/QqEs7PfkOuzH9YTjzeCR208jkN0wTyJptGqg5VN",
+      "email": "morevishal079@gmail.com",
+      "password": "123",
+      "profession": " Web Developer",
+      "skills": ["asd", "sds", "scsc"],
+      "hourly_rate": "23",
+      "isBooked": false,
+      "id": 4
+    }
   ]
 
 }
