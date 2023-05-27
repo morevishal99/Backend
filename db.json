@@ -82,38 +82,90 @@
     }
   ],"freelancers": [
     {
-      "id": 1,
-      "name": "John Doe",
-      "email": "john@example.com",
-      "password": "password",
-      "profession": "Web Developer",
-      "skills": ["HTML", "CSS", "JavaScript"],
-      "hourly_rate": 25,
-      "profile_picture": "profile1.jpg",
-      "isBooked": false
-    },
-    {
-      "id": 2,
-      "name": "Jane Smith",
-      "email": "jane@example.com",
-      "password": "password",
-      "profession": "Graphic Designer",
-      "skills": ["Photoshop", "Illustrator"],
-      "hourly_rate": 30,
-      "profile_picture": "profile2.jpg",
-      "isBooked": true
-    },
-    {
-      "name": "Vishal More",
-      "profile_picture": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI4AAACOCAMAAADQI8A6AAAAh1BMVEVHcEy0OgBaGwBaGgCIKQBcGwBdGwClMgBvIgB3JQFqIABUGAB5JgBbGgBVGQBXGgCWLQABBAoADxh1JACrPQFcHgIDAw0DBxUAGCedPgVNFgAAJTcFAwk1EABBEwAAMkkGBw9eIQZXHQMqDQA9EgEGDCgBSWoNDxYSDBAWEBMAbpgTV3gAAAAVSRGJAAAALHRSTlMAOIeCUXx1QWVHbJxgb5SNS/n6ViVm7ePxFKfs176w48I0W9Oe1NeqkXfKk5pX27oAABe2SURBVHicvZyHYuJMr4Zx771hg40xpiTL/V/feaVxpWSTfPsfkUJIwA+SRtJoZrLZ/Hspy+PRgiSJZR2PZfk/uMR3JbUS11XDUGIxQlcPfMVOjv+vECUkTVMioC8GfxrSwGRqum2r6f+YIE0HgqUYkBHGmJhc23UT9X9ktTKVDGNBwAyDWMZSMbOWCEeV/hcwxLJCIDnypxVKI4oRQgS1UFUCjzL+OQzev8GfAwB/4sZiDDQh/Nk1SeDWIxLxhf+WBq85XF18TJ/0YDgYxlRMdxDTtm2oRShM/cc8qWoNMlBM3+iOKswUuonZa24y8wBIeHWCd/Pv/McIrdAaTYPPkL6FI6EqnJgh1EDRBY3gMROVLeYa4T8b8OKqofgSDvemhwRNOJop0XVb4BAP7vPvmeefjPdSXQCsQFgStpRqk/cKnl4xhTcTDniSkHlCVf1HNE8Mo5mQndhbXQq/BEQgSS8HrqABjq6bzKO6qvrfM0aZqLhZ6pKBP8XjwjVcTdMFjxjjWqAxjO3pOn5FPFAP/v6/mqtUVahguNE98SFu+HDJT0vL1MHjDUDA0DTFnHAU3XSJx1bV8Cgd/4tHU60wXFt4ytpaCdHg9Y2RZxCvlz3b80BDOIpmuoZkqTbcR3VN6z/QqEs7PfkOuzH9YTjzeCR208jkN0wTyJptGqg5VN",
-      "email": "morevishal079@gmail.com",
-      "password": "123",
-      "profession": " Web Developer",
-      "skills": ["asd", "sds", "scsc"],
-      "hourly_rate": "23",
-      "isBooked": false,
-      "id": 4
-    }
+    "name": "Vishal More",
+    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+    "email": "morevishal079@gmail.com",
+    "password": "1234",
+    "profession": "Student",
+    "skills": [
+      "Java",
+      "React",
+      "Html"
+    ],
+    "hourly_rate": "30",
+    "isBooked": false,
+    "id": 1
+  },
+  {
+    "name": "Nikita Sonwane",
+    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+    "email": "nikita@gmail.com",
+    "password": "1234",
+    "profession": " Web Developer",
+    "skills": [
+      "Html",
+      "Css"
+    ],
+    "hourly_rate": "50",
+    "isBooked": true,
+    "id": 2
+  },
+  {
+    "name": "Baburao",
+    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+    "email": "baburao@gmail.com",
+    "password": "12355",
+    "profession": "Graphic Designer",
+    "skills": [
+      "React",
+      "Node"
+    ],
+    "hourly_rate": "20",
+    "isBooked": false,
+    "id": 3
+  },
+  {
+    "name": "Apeksha",
+    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+    "email": "apeksha@gmail.com",
+    "password": "12345",
+    "profession": " Web Developer",
+    "skills": [
+      "Testing",
+      "joking"
+    ],
+    "hourly_rate": "80",
+    "isBooked": true,
+    "id": 4
+  },
+  {
+    "name": "More",
+    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+    "email": "more@gmail.com",
+    "password": "12345",
+    "profession": "Student",
+    "skills": [
+      "Redux",
+      "node"
+    ],
+    "hourly_rate": "100",
+    "isBooked": true,
+    "id": 6
+  },
+  {
+    "name": "Bobby More",
+    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+    "email": "bobbymore2025@gmail.com",
+    "password": "12345",
+    "profession": "Graphic Designer",
+    "skills": [
+      "Testing",
+      "React"
+    ],
+    "hourly_rate": "50",
+    "isBooked": true,
+    "id": 7
+  }
   ]
 
 }
