@@ -56,7 +56,7 @@
     }
   ],
   "employees": [],
-  "users":[],
+  "user":[],
   "appointments":[
     {
       "name": "Jane Doe",
@@ -80,7 +80,8 @@
       "fee": 100,
       "id":2
     }
-  ],"freelancers": [
+  ],
+  "freelancers": [
     {
     "name": "Vishal More",
     "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
@@ -166,6 +167,48 @@
     "isBooked": true,
     "id": 7
   }
+  ],
+  
+  "users": [
+    {
+      "name": "vishal ",
+      "email": "vishal@gmail.com",
+      "password": "vishal",
+      "image": "",
+      "id": 1
+    },
+    {
+      "name": "Baburao",
+      "email": "baburao@gmail.com",
+      "password": "baburao",
+      "image": "",
+      "id": 2
+    }
+  ],
+  "forum": [
+    {
+      "questitle": "How to sort array",
+      "quesdescription": "i am not able to sort array ",
+      "language": "JavaScript",
+      "date": "2023-06-03",
+      "upvotes": 0,
+      "answers": 0,
+      "userId": "1",
+      "name": "vishal ",
+      "id": 1
+    },
+    {
+      "questitle": "decode this",
+      "quesdescription": "nahi malun re bana",
+      "language": "JavaScript",
+      "date": "2023-06-30",
+      "upvotes": 0,
+      "answers": 0,
+      "userId": "2",
+      "name": "Baburao",
+      "id": 2
+    }
   ]
-
 }
+
+
