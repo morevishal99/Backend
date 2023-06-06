@@ -56,8 +56,7 @@
     }
   ],
   "employees": [],
-  "user":[],
-  "appointments":[
+  "appointments": [
     {
       "name": "Jane Doe",
       "image": "data:image/jpeg;base64,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",
@@ -67,7 +66,7 @@
       "date": "2023-04-05T12:00:00.000Z",
       "slots": 2,
       "fee": 150,
-      "id":1
+      "id": 1
     },
     {
       "name": "Mark Johnson",
@@ -78,97 +77,78 @@
       "date": "2023-04-06T09:30:00.000Z",
       "slots": 1,
       "fee": 100,
-      "id":2
+      "id": 2
     }
   ],
   "freelancers": [
     {
-    "name": "Vishal More",
-    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
-    "email": "morevishal079@gmail.com",
-    "password": "1234",
-    "profession": "Student",
-    "skills": [
-      "Java",
-      "React",
-      "Html"
-    ],
-    "hourly_rate": "30",
-    "isBooked": false,
-    "id": 1
-  },
-  {
-    "name": "Nikita Sonwane",
-    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
-    "email": "nikita@gmail.com",
-    "password": "1234",
-    "profession": " Web Developer",
-    "skills": [
-      "Html",
-      "Css"
-    ],
-    "hourly_rate": "50",
-    "isBooked": true,
-    "id": 2
-  },
-  {
-    "name": "Baburao",
-    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
-    "email": "baburao@gmail.com",
-    "password": "12355",
-    "profession": "Graphic Designer",
-    "skills": [
-      "React",
-      "Node"
-    ],
-    "hourly_rate": "20",
-    "isBooked": false,
-    "id": 3
-  },
-  {
-    "name": "Apeksha",
-    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
-    "email": "apeksha@gmail.com",
-    "password": "12345",
-    "profession": " Web Developer",
-    "skills": [
-      "Testing",
-      "joking"
-    ],
-    "hourly_rate": "80",
-    "isBooked": true,
-    "id": 4
-  },
-  {
-    "name": "More",
-    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
-    "email": "more@gmail.com",
-    "password": "12345",
-    "profession": "Student",
-    "skills": [
-      "Redux",
-      "node"
-    ],
-    "hourly_rate": "100",
-    "isBooked": true,
-    "id": 6
-  },
-  {
-    "name": "Bobby More",
-    "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
-    "email": "bobbymore2025@gmail.com",
-    "password": "12345",
-    "profession": "Graphic Designer",
-    "skills": [
-      "Testing",
-      "React"
-    ],
-    "hourly_rate": "50",
-    "isBooked": true,
-    "id": 7
-  }
+      "name": "Vishal More",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+      "email": "morevishal079@gmail.com",
+      "password": "1234",
+      "profession": "Student",
+      "skills": ["Java", "React", "Html"],
+      "hourly_rate": "30",
+      "isBooked": false,
+      "id": 1
+    },
+    {
+      "name": "Nikita Sonwane",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+      "email": "nikita@gmail.com",
+      "password": "1234",
+      "profession": " Web Developer",
+      "skills": ["Html", "Css"],
+      "hourly_rate": "50",
+      "isBooked": true,
+      "id": 2
+    },
+    {
+      "name": "Baburao",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+      "email": "baburao@gmail.com",
+      "password": "12355",
+      "profession": "Graphic Designer",
+      "skills": ["React", "Node"],
+      "hourly_rate": "20",
+      "isBooked": false,
+      "id": 3
+    },
+    {
+      "name": "Apeksha",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+      "email": "apeksha@gmail.com",
+      "password": "12345",
+      "profession": " Web Developer",
+      "skills": ["Testing", "joking"],
+      "hourly_rate": "80",
+      "isBooked": true,
+      "id": 4
+    },
+    {
+      "name": "More",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+      "email": "more@gmail.com",
+      "password": "12345",
+      "profession": "Student",
+      "skills": ["Redux", "node"],
+      "hourly_rate": "100",
+      "isBooked": true,
+      "id": 6
+    },
+    {
+      "name": "Bobby More",
+      "profile_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvs96loXrhAjAO_yf5eEQ-ITcpAe8N2gIA5F3oUOpFg&s",
+      "email": "bobbymore2025@gmail.com",
+      "password": "12345",
+      "profession": "Graphic Designer",
+      "skills": ["Testing", "React"],
+      "hourly_rate": "50",
+      "isBooked": true,
+      "id": 7
+    }
   ],
-  
+
   "users": [
     {
       "name": "vishal ",
@@ -208,7 +188,28 @@
       "name": "Baburao",
       "id": 2
     }
+  ],
+  "userData": [
+    {
+      "type": "Expense",
+      "category": "Shopping",
+      "amount": "9000",
+      "date": "2023-06-06",
+      "userId": "2",
+      "id": 1
+    }
+  ],"user": [
+    {
+      "name": "Vishal",
+      "email": "vishal@gmail.com",
+      "password": "vishal",
+      "id": 1
+    },
+    {
+      "name": "Baburao",
+      "email": "babu@gmail.com",
+      "password": "babu",
+      "id": 2
+    }
   ]
 }
-
-
