@@ -214,6 +214,111 @@
   ],
   "OrganizationData": [
     {
+      "id": "b518",
+      "organization_name": "Sachin Mohite",
+      "organization_type": "Laptop and Electronics Shop",
+      "onboarding_date": "2024-01-07",
+      "critical_alerts": 8,
+      "alert_description": [
+        "Large number of transactions with inter-connected companies and large outstanding from such companies.",
+        "Audited Financials not submitted",
+        "Change In External Ratings",
+        "Credit Score dropped below 600",
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Movement of an account from one bank to another",
+        "CIBIL Alerts",
+        "Checque Bounces Alerts"
+      ],
+      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2E_OrjS7w-vO9-CPOhYycpkWkPx4lE9jPsA&usqp=CAU",
+      "pan_card": "BKBPT8834Z",
+      "listing_status": "Not Listed",
+      "no_Of_directors": "1",
+      "origin": "Maharahstra, India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 4,
+          "ChequeBounce": 1,
+          "NoOfDefault": 4,
+          "EBITDA": 34,
+          "Sales": 154321,
+          "DirectorStatus": [
+            {
+              "DIN": 65874,
+              "Designation": "Founder",
+              "Date": "31/01/2019",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [],
+          "EBIDAMargin": 7.8,
+          "ReturnOnEquity": 5,
+          "NetProfitMargin": 16,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            2.5,
+            2.2,
+            3.5,
+            1.8
+          ],
+          "DSCR": [
+            1.35,
+            1.25,
+            1.6,
+            1.8
+          ],
+          "TOL_TNW": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "CurrentRatio": [
+            1.35,
+            1.25,
+            1.2,
+            1.15
+          ],
+          "QuickRatio": [
+            1.5,
+            1,
+            0.8,
+            1
+          ],
+          "RoNW": [
+            30,
+            20,
+            20,
+            20
+          ],
+          "NetSalestoTotalAssests": [
+            2,
+            1.8,
+            1,
+            1
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Writeoff in past-292426",
+        "High Active Balance 8290869 Balance"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ]
+    },
+    {
       "id": "c518",
       "organization_name": "Dhairya Avenue Collection",
       "organization_type": "Clothing Shop",
@@ -221,6 +326,17 @@
       "critical_alerts": 1,
       "alert_description": [
         "Large number of transactions with inter-connected companies and large outstanding from such companies."
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
       ],
       "logo_url": "https://cdn.dotpe.in/longtail/store-logo/1089338/8r2QFSb8.jpeg",
       "pan_card": "EYZPM8834B",
@@ -325,6 +441,17 @@
         "Bouncing of the high value cheques.",
         "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
       ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
       "logo_url": "https://www.millscnc.co.uk/wp-content/themes/mills-cnc/images/svg/logo.svg",
       "pan_card": "ABCPM8838A",
       "listing_status": "Active",
@@ -409,6 +536,17 @@
         "Abnormal Credit/Debit transactions",
         "Cash Withdrawal >=50% of Average Income"
       ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
       "logo_url": "https://content3.jdmagicbox.com/comp/mysore/x9/0821px821.x821.211126152229.i5x9/catalogue/usha-vision-care-hinkal-mysore-opticians-zt1ec3i091.jpg",
       "pan_card": "CNXPM6634D",
       "listing_status": "Not public",
@@ -492,6 +630,17 @@
         "Bouncing of the high value cheques.",
         "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
       ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
       "logo_url": "https://lh5.googleusercontent.com/p/AF1QipMAW-yS5c5ahPlgLkIwUa2f4tIIKVbMYLFumIuW=w143-h143-n-k-no",
       "pan_card": "",
       "listing_status": "NA",
@@ -515,6 +664,17 @@
         "Frequent change in statutory auditors (2 consecutive years)",
         "Resignation of independent directors within a short span of time",
         "Transactions with Creditor"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
       ],
       "logo_url": "blob:http://127.0.0.1:5173/1bd098b4-f0ff-4099-be76-3496f3c0cda7",
       "pan_card": "7725632820",
@@ -543,6 +703,17 @@
         "Business expansion to areas outside core business/backward or forward integration",
         "Frequent change in statutory auditors (2 consecutive years)"
       ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
       "logo_url": "",
       "pan_card": "AAACM5432D",
       "listing_status": "na",
@@ -565,6 +736,17 @@
         "Operating Cash Flow to Current Liabilities (Operating Cash Flow to Current Liabilities)",
         "Pledging/selling of promoters' shares in the borrower company due to financial stress",
         "Transactions with Creditor"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
       ],
       "logo_url": "",
       "pan_card": "AAATT4321F",
@@ -591,6 +773,17 @@
         "Increasing employee attrition at borrower end",
         "Continuous flow of funds among intergroup companies (no. of transactions)",
         "Transactions with Debtors"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
       ],
       "logo_url": "https://lh5.googleusercontent.com/p/AF1QipNafscPmdzqNFsahEGpZraDtViWywgRIeyK7Blu=w143-h143-n-k-no",
       "pan_card": "AAKCS5432G",
@@ -621,6 +814,17 @@
         "Adjusted TNW (Deviation (decrease in %) from estimates)",
         "Net Cash Accrual To Total Debt (Absolute Value)",
         "Business expansion to areas outside core business/backward or forward integration"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
       ],
       "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapLoH2z4GVi2E0iYpg8HdXODjaqFxZ_h_hw&usqp=CAU",
       "pan_card": "AAACC3214H",
@@ -655,11 +859,41 @@
         "Audited Financials not submitted",
         "Continuous flow of funds among intergroup companies (no. of transactions)"
       ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
       "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmE7WfKz7FDDOGUneceWExI_HugEJneRGxeg&usqp=CAU",
       "pan_card": "AAACA8765C",
       "listing_status": "Public",
       "no_Of_directors": "11",
       "origin": "USA"
+    },
+    {
+      "id": "fe4e",
+      "organization_name": "Markytics",
+      "organization_type": "pvt ltd",
+      "onboarding_date": "2024-05-01",
+      "critical_alerts": 5,
+      "alert_description": [
+        "Abnormal Credit/Debit transactions",
+        "Adjusted TNW (Deviation (decrease in %) from estimates)",
+        "Audited Financials not submitted",
+        "Borrower reported as Defaulter by other bank(s) In CRILC",
+        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)"
+      ],
+      "logo_url": "blob:http://localhost:5173/57fa3922-4d31-40e8-a875-116deb2becf0",
+      "pan_card": "EYZPM8834B",
+      "listing_status": "not listed",
+      "no_Of_directors": "1",
+      "origin": "INDIA"
     }
   ]
 }
