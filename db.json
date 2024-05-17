@@ -386,8 +386,8 @@
       "ClientDetails": [
         {
           "critical": 1,
-          "warning": 3,
-          "informatiom": 6,
+          "warning": 0,
+          "informatiom": 1,
           "ChequeBounce": 0,
           "NoOfDefault": 2,
           "EBITDA": 14,
@@ -461,9 +461,9 @@
     },
     {
       "id": "b518",
-      "organization_name": "Sachin Mohite",
-      "organization_type": "Laptop and Electronics Shop",
-      "onboarding_date": "2024-01-07",
+      "organization_name": "Manora pvt ltd",
+      "organization_type": "Travel and Tourism",
+      "onboarding_date": "2022-02-01",
       "critical_alerts": 8,
       "alert_description": [
         "Large number of transactions with inter-connected companies and large outstanding from such companies.",
@@ -487,8 +487,8 @@
           "informatiom": 4,
           "ChequeBounce": 1,
           "NoOfDefault": 4,
-          "EBITDA": 34,
-          "Sales": 154321,
+          "EBITDA": 24,
+          "Sales": 22154321,
           "DirectorStatus": [
             {
               "DIN": 65874,
@@ -559,30 +559,19 @@
       ],
       "informationAlerts": [
         "High Loan Count - 25",
-        "747727 Total PastDueAmount",
+        "8990000 Total PastDueAmount",
         "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
+        "3 RTGS Payments less than 2 lakhs "
       ]
     },
     {
       "id": "c518",
-      "organization_name": "Dhairya Avenue Collection",
-      "organization_type": "Clothing Shop",
+      "organization_name": "Dhairya Avenue",
+      "organization_type": "Clothing Brand",
       "onboarding_date": "2019-05-14",
-      "critical_alerts": 1,
+      "critical_alerts": 2,
       "alert_description": [
         "Large number of transactions with inter-connected companies and large outstanding from such companies."
-      ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
       ],
       "logo_url": "https://cdn.dotpe.in/longtail/store-logo/1089338/8r2QFSb8.jpeg",
       "pan_card": "EYZPM8834B",
@@ -591,90 +580,87 @@
       "origin": "Maharahstra, India",
       "ClientDetails": [
         {
-          "critical": 36,
-          "warning": 14,
-          "informatiom": 16,
-          "ChequeBounce": 12,
-          "NoOfDefault": 23,
-          "EBITDA": 514,
-          "Sales": 154321,
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
           "DirectorStatus": [
             {
               "DIN": 23146,
-              "Designation": "Founder",
-              "Date": "21/09/2024",
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
               "Dsc": "Yes",
               "EndDate": ""
             }
           ],
           "CourtCases": [
-            {
-              "EssentialName": "Makrkytics Power Ltd.",
-              "Type": "Entity",
-              "Name": "1 Makrytics Power Control",
-              "Status": 0
-            },
-            {
-              "EssentialName": "Markytics Power Ltd.",
-              "Type": "Entity",
-              "Name": "Makrytics Power Udaipur Plant",
-              "Status": 1
-            },
-            {
-              "EssentialName": "Markytics Power Ltd.",
-              "Type": "Entity",
-              "Name": "Markytics Power Distribution Grid",
-              "Status": 1
-            }
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
           ],
-          "EBIDAMargin": 5,
+          "EBIDAMargin": 8.5,
           "ReturnOnEquity": 8,
           "NetProfitMargin": 12,
-          "NetCashAccuraltoNetSales": 4,
-          "ReturnOnCapitalEmployed": 6,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
           "DebtEquityRatio": [
-            91,
-            82,
-            41,
-            27
+            1.5,
+            2.1,
+            2.1,
+            2.7
           ],
           "DSCR": [
-            91,
-            82,
-            41,
-            27
+            1.5,
+            1.45,
+            1.21,
+            2.1
           ],
           "TOL_TNW": [
-            91,
-            82,
-            41,
-            27
+            1.1,
+            2.2,
+            1.8,
+            2.2
           ],
           "CurrentRatio": [
-            91,
-            82,
-            41,
-            27
+            1,
+            1.2,
+            1.5,
+            1.1
           ],
           "QuickRatio": [
-            91,
-            82,
-            41,
-            27
+            0.9,
+            1.1,
+            1.5,
+            1.2
           ],
           "RoNW": [
-            91,
-            82,
-            41,
-            27
+            20,
+            30,
+            32,
+            18
           ],
           "NetSalestoTotalAssests": [
-            91,
-            82,
-            41,
-            27
+            1.5,
+            1.8,
+            1.1,
+            2.7
           ]
         }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
       ]
     },
     {
@@ -687,17 +673,6 @@
         "Bouncing of the high value cheques.",
         "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
       ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
       "logo_url": "https://www.millscnc.co.uk/wp-content/themes/mills-cnc/images/svg/logo.svg",
       "pan_card": "ABCPM8838A",
       "listing_status": "Active",
@@ -705,75 +680,92 @@
       "origin": "Pune",
       "ClientDetails": [
         {
-          "critical": 6,
-          "warning": 14,
-          "informatiom": 16,
-          "ChequeBounce": 12,
-          "NoOfDefault": 2,
-          "EBITDA": 51,
-          "Sales": 15432,
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
           "DirectorStatus": [
             {
               "DIN": 23146,
-              "Designation": "Founder",
-              "Date": "21/09/2024",
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
               "Dsc": "Yes",
               "EndDate": ""
             }
           ],
-          "EBIDAMargin": 5,
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
           "ReturnOnEquity": 8,
           "NetProfitMargin": 12,
-          "NetCashAccuraltoNetSales": 4,
-          "ReturnOnCapitalEmployed": 6,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
           "DebtEquityRatio": [
-            20,
-            32,
-            41,
-            27
+            1.5,
+            2.1,
+            2.1,
+            2.7
           ],
           "DSCR": [
-            71,
-            42,
-            61,
-            87
+            1.5,
+            1.45,
+            1.21,
+            2.1
           ],
           "TOL_TNW": [
-            61,
-            82,
-            41,
-            37
+            1.1,
+            2.2,
+            1.8,
+            2.2
           ],
           "CurrentRatio": [
-            51,
-            82,
-            71,
-            30
+            1,
+            1.2,
+            1.5,
+            1.1
           ],
           "QuickRatio": [
-            91,
-            82,
-            41,
-            25
+            0.9,
+            1.1,
+            1.5,
+            1.2
           ],
           "RoNW": [
-            73,
-            82,
-            41,
-            19
+            20,
+            30,
+            32,
+            18
           ],
           "NetSalestoTotalAssests": [
-            69,
-            82,
-            41,
-            20
+            1.5,
+            1.8,
+            1.1,
+            2.7
           ]
         }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
       ]
     },
     {
       "id": "8f84",
-      "organization_name": "Usha optision",
+      "organization_name": "Usha optics pvt ltd",
       "organization_type": "Private",
       "onboarding_date": "2020-05-15",
       "critical_alerts": 3,
@@ -782,17 +774,6 @@
         "Abnormal Credit/Debit transactions",
         "Cash Withdrawal >=50% of Average Income"
       ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
       "logo_url": "https://content3.jdmagicbox.com/comp/mysore/x9/0821px821.x821.211126152229.i5x9/catalogue/usha-vision-care-hinkal-mysore-opticians-zt1ec3i091.jpg",
       "pan_card": "CNXPM6634D",
       "listing_status": "Not public",
@@ -800,92 +781,503 @@
       "origin": "India",
       "ClientDetails": [
         {
-          "critical": 6,
-          "warning": 14,
-          "informatiom": 16,
-          "ChequeBounce": 12,
-          "NoOfDefault": 2,
-          "EBITDA": 51,
-          "Sales": 15432,
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
           "DirectorStatus": [
             {
               "DIN": 23146,
-              "Designation": "Founder",
-              "Date": "21/09/2024",
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
               "Dsc": "Yes",
               "EndDate": ""
             }
           ],
-          "EBIDAMargin": 5,
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
           "ReturnOnEquity": 8,
           "NetProfitMargin": 12,
-          "NetCashAccuraltoNetSales": 4,
-          "ReturnOnCapitalEmployed": 6,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
           "DebtEquityRatio": [
-            20,
-            32,
-            41,
-            67
+            1.5,
+            2.1,
+            2.1,
+            2.7
           ],
           "DSCR": [
-            71,
-            49,
-            61,
-            87
+            1.5,
+            1.45,
+            1.21,
+            2.1
           ],
           "TOL_TNW": [
-            61,
-            42,
-            41,
-            37
+            1.1,
+            2.2,
+            1.8,
+            2.2
           ],
           "CurrentRatio": [
-            51,
-            72,
-            71,
-            30
+            1,
+            1.2,
+            1.5,
+            1.1
           ],
           "QuickRatio": [
-            91,
-            82,
-            61,
-            45
+            0.9,
+            1.1,
+            1.5,
+            1.2
           ],
           "RoNW": [
-            76,
-            82,
-            41,
-            49
+            20,
+            30,
+            32,
+            18
           ],
           "NetSalestoTotalAssests": [
-            69,
-            82,
-            41,
-            40
+            1.5,
+            1.8,
+            1.1,
+            2.7
           ]
         }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
+      ]
+    },
+   
+    {
+      "id": "8f86",
+      "organization_name": "Cosco Sports",
+      "organization_type": "Sports and Equipments",
+      "onboarding_date": "2020-01-18",
+      "critical_alerts": 2,
+      "alert_description": [
+        "DEBT TO INCOME RATIO",
+        "Abnormal Credit/Debit transactions",
+        "Cash Withdrawal >=50% of Average Income"
+      ],
+      "logo_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/491455230.jpg?k=06be2341a43e4052bfae9f0c004fa28eec5dd10d6b6e0e563985c2ab7cc2cb31&o=&hp=1",
+      "pan_card": "CNXPM6634D",
+      "listing_status": "Not public",
+      "no_Of_directors": "3",
+      "origin": "India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
+          "DirectorStatus": [
+            {
+              "DIN": 23146,
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 8,
+          "NetProfitMargin": 12,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            1.5,
+            2.1,
+            2.1,
+            2.7
+          ],
+          "DSCR": [
+            1.5,
+            1.45,
+            1.21,
+            2.1
+          ],
+          "TOL_TNW": [
+            1.1,
+            2.2,
+            1.8,
+            2.2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            0.9,
+            1.1,
+            1.5,
+            1.2
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.8,
+            1.1,
+            2.7
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
+      ]
+    },
+    {
+      "id": "8f87",
+      "organization_name": "Mikata Kitchens",
+      "organization_type": "Private",
+      "onboarding_date": "2014-09-10",
+      "critical_alerts": 2,
+      "alert_description": [
+        "DEBT TO INCOME RATIO",
+        "Abnormal Credit/Debit transactions",
+        "Cash Withdrawal >=50% of Average Income"
+      ],
+      "logo_url": "https://mms.img.susercontent.com/b664c77934bfa8d1ac889dd6505042d9",
+      "pan_card": "CNXPM6634D",
+      "listing_status": "Not public",
+      "no_Of_directors": "3",
+      "origin": "India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
+          "DirectorStatus": [
+            {
+              "DIN": 23146,
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 8,
+          "NetProfitMargin": 12,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            1.5,
+            2.1,
+            2.1,
+            2.7
+          ],
+          "DSCR": [
+            1.5,
+            1.45,
+            1.21,
+            2.1
+          ],
+          "TOL_TNW": [
+            1.1,
+            2.2,
+            1.8,
+            2.2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            0.9,
+            1.1,
+            1.5,
+            1.2
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.8,
+            1.1,
+            2.7
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
+      ]
+    },
+    {
+      "id": "8f90",
+      "organization_name": "Punawala law pvt ltd",
+      "organization_type": "Private",
+      "onboarding_date": "2011-06-11",
+      "critical_alerts": 2,
+      "alert_description": [
+        "DEBT TO INCOME RATIO",
+        "Abnormal Credit/Debit transactions",
+        "Cash Withdrawal >=50% of Average Income"
+      ],
+      "logo_url": "https://www.poonawallafinance.com/wp-content/themes/poonawalla-child/assets/images/adar-new.jpg",
+      "pan_card": "CNXPM6634D",
+      "listing_status": "Not public",
+      "no_Of_directors": "3",
+      "origin": "India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
+          "DirectorStatus": [
+            {
+              "DIN": 23146,
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 8,
+          "NetProfitMargin": 12,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            1.5,
+            2.1,
+            2.1,
+            2.7
+          ],
+          "DSCR": [
+            1.5,
+            1.45,
+            1.21,
+            2.1
+          ],
+          "TOL_TNW": [
+            1.1,
+            2.2,
+            1.8,
+            2.2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            0.9,
+            1.1,
+            1.5,
+            1.2
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.8,
+            1.1,
+            2.7
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
+      ]
+    },
+    {
+      "id": "8f85",
+      "organization_name": "Dhanashree Mall",
+      "organization_type": "Private",
+      "onboarding_date": "2019-01-15",
+      "critical_alerts": 3,
+      "alert_description": [
+        "DEBT TO INCOME RATIO",
+        "Abnormal Credit/Debit transactions",
+        "Cash Withdrawal >=50% of Average Income"
+      ],
+      "logo_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/491455230.jpg?k=06be2341a43e4052bfae9f0c004fa28eec5dd10d6b6e0e563985c2ab7cc2cb31&o=&hp=1",
+      "pan_card": "CNXPM6634D",
+      "listing_status": "Not public",
+      "no_Of_directors": "3",
+      "origin": "India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
+          "DirectorStatus": [
+            {
+              "DIN": 23146,
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 8,
+          "NetProfitMargin": 12,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            1.5,
+            2.1,
+            2.1,
+            2.7
+          ],
+          "DSCR": [
+            1.5,
+            1.45,
+            1.21,
+            2.1
+          ],
+          "TOL_TNW": [
+            1.1,
+            2.2,
+            1.8,
+            2.2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            0.9,
+            1.1,
+            1.5,
+            1.2
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.8,
+            1.1,
+            2.7
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
       ]
     },
     {
       "id": "201e",
-      "organization_name": "Dhanashree Mini Mall",
+      "organization_name": "Aakash Education pvt ltd",
       "organization_type": "Private Ltd",
       "onboarding_date": "2022-02-16",
       "critical_alerts": 2,
       "alert_description": [
         "Bouncing of the high value cheques.",
         "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
-      ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
       ],
       "logo_url": "https://lh5.googleusercontent.com/p/AF1QipMAW-yS5c5ahPlgLkIwUa2f4tIIKVbMYLFumIuW=w143-h143-n-k-no",
       "pan_card": "",
@@ -1121,25 +1513,6 @@
       "listing_status": "Public",
       "no_Of_directors": "11",
       "origin": "USA"
-    },
-    {
-      "id": "fe4e",
-      "organization_name": "Markytics",
-      "organization_type": "pvt ltd",
-      "onboarding_date": "2024-05-01",
-      "critical_alerts": 5,
-      "alert_description": [
-        "Abnormal Credit/Debit transactions",
-        "Adjusted TNW (Deviation (decrease in %) from estimates)",
-        "Audited Financials not submitted",
-        "Borrower reported as Defaulter by other bank(s) In CRILC",
-        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)"
-      ],
-      "logo_url": "blob:http://localhost:5173/57fa3922-4d31-40e8-a875-116deb2becf0",
-      "pan_card": "EYZPM8834B",
-      "listing_status": "not listed",
-      "no_Of_directors": "1",
-      "origin": "INDIA"
     }
   ]
 }
