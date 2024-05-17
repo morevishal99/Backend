@@ -349,6 +349,117 @@
       ]
     },
     {
+      "id": "5772",
+      "organization_name": "SAI Group and Company",
+      "organization_type": "DRINKS & WATER",
+      "onboarding_date": "2022-01-21",
+      "critical_alerts": 1,
+      "alert_description": [
+        "Significant inconsistencies within the annual report (between various sections).",
+        "Frequent change in accounting period and/or accounting policies. Change in accounting period yes. They are testing for accounting policy",
+        "Movement of an account from one bank to another",
+        "Non-submission of audited financials of borrower and associate companies",
+        "(No. of days delay in submission of audited financials beyond due date)",
+        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)",
+        "Gross Current Assets as days sales (Absolute Value)",
+        "Decrease consistently in Interest Coverage Ratio (as on last day of the period) (How much % of decrease in ICR)",
+        "Debt To Equity (Deviation (decrease in %) from estimates)",
+        "DSCR (Absolute value) (deteroration in DSCR)",
+        "TOL/TNW  (Absolute Value)",
+        "Current Ratio (Absolute value)",
+        "Quick Ratio (Deviation (decrease in %) from estimates)",
+        "RoNW (Deviation (decrease in %) from estimates)",
+        "Net Sales To Total Assets (Absolute Value)",
+        "Operating Cash Flow to Current Liabilities (Operating Cash Flow to Current Liabilities)",
+        "Operating Cash Flow to Total Serviceable Debt (Operating Cash Flow to Total Serviceable Debt)",
+        "EBITDA Margin (Deviation (decrease in %) from estimates)",
+        "Net Cash accrual to Net sales (Absolute Value)",
+        "Net Profit Margin (Deviation (decrease in %) from estimates)",
+        "Return on Capital Employed (Absolute Value)",
+        "Return on Equity (Absolute Value)"
+      ],
+      "logo_url": "https://www.sisnde.com/images/logo/logo.png",
+      "pan_card": "BJBTI4561Y",
+      "listing_status": "Not Listed",
+      "no_Of_directors": "1",
+      "origin": "Maharahstra, India",
+      "ClientDetails": [
+        {
+          "critical": 1,
+          "warning": 3,
+          "informatiom": 6,
+          "ChequeBounce": 0,
+          "NoOfDefault": 2,
+          "EBITDA": 14,
+          "Sales": 4512587,
+          "DirectorStatus": [
+            {
+              "DIN": 64564,
+              "Designation": "MANAGING DIRECTOR",
+              "Date": "01/04/2011",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [],
+          "EBIDAMargin": 11.5,
+          "ReturnOnEquity": 12,
+          "NetProfitMargin": 20,
+          "NetCashAccuraltoNetSales": 1.1,
+          "ReturnOnCapitalEmployed": 20,
+          "DebtEquityRatio": [
+            3,
+            2.2,
+            2,
+            1.8
+          ],
+          "DSCR": [
+            1.1,
+            1.9,
+            2.0,
+            2.1
+          ],
+          "TOL_TNW": [
+            1,
+            2,
+            3,
+            1
+          ],
+          "CurrentRatio": [
+            1.5,
+            1.1,
+            1,
+            0.9
+          ],
+          "QuickRatio": [
+            1.3,
+            0.4,
+            0.9,
+            1.1
+          ],
+          "RoNW": [
+            30,
+            20,
+            32,
+            28
+          ],
+          "NetSalestoTotalAssests": [
+            2.5,
+            1.8,
+            1.1,
+            2
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Debt to equity ratio is High"
+      ],
+      "warningAlerts": [],
+      "informationAlerts": [
+        "Less Number of Banking Transactions"
+      ]
+    },
+    {
       "id": "b518",
       "organization_name": "Sachin Mohite",
       "organization_type": "Laptop and Electronics Shop",
