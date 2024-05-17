@@ -87,7 +87,11 @@
       "email": "morevishal079@gmail.com",
       "password": "1234",
       "profession": "Student",
-      "skills": ["Java", "React", "Html"],
+      "skills": [
+        "Java",
+        "React",
+        "Html"
+      ],
       "hourly_rate": "30",
       "isBooked": false,
       "id": 1
@@ -98,7 +102,10 @@
       "email": "nikita@gmail.com",
       "password": "1234",
       "profession": " Web Developer",
-      "skills": ["Html", "Css"],
+      "skills": [
+        "Html",
+        "Css"
+      ],
       "hourly_rate": "50",
       "isBooked": true,
       "id": 2
@@ -109,7 +116,10 @@
       "email": "baburao@gmail.com",
       "password": "12355",
       "profession": "Graphic Designer",
-      "skills": ["React", "Node"],
+      "skills": [
+        "React",
+        "Node"
+      ],
       "hourly_rate": "20",
       "isBooked": false,
       "id": 3
@@ -120,7 +130,10 @@
       "email": "apeksha@gmail.com",
       "password": "12345",
       "profession": " Web Developer",
-      "skills": ["Testing", "joking"],
+      "skills": [
+        "Testing",
+        "joking"
+      ],
       "hourly_rate": "80",
       "isBooked": true,
       "id": 4
@@ -131,7 +144,10 @@
       "email": "more@gmail.com",
       "password": "12345",
       "profession": "Student",
-      "skills": ["Redux", "node"],
+      "skills": [
+        "Redux",
+        "node"
+      ],
       "hourly_rate": "100",
       "isBooked": true,
       "id": 6
@@ -142,13 +158,15 @@
       "email": "bobbymore2025@gmail.com",
       "password": "12345",
       "profession": "Graphic Designer",
-      "skills": ["Testing", "React"],
+      "skills": [
+        "Testing",
+        "React"
+      ],
       "hourly_rate": "50",
       "isBooked": true,
       "id": 7
     }
   ],
-
   "users": [
     {
       "name": "vishal ",
@@ -198,7 +216,8 @@
       "userId": "2",
       "id": 1
     }
-  ],"user": [
+  ],
+  "user": [
     {
       "name": "Vishal",
       "email": "vishal@gmail.com",
@@ -213,6 +232,122 @@
     }
   ],
   "OrganizationData": [
+    {
+      "id": "5771",
+      "organization_name": "PRACO HOUSEWARE PVT LTD",
+      "organization_type": "HOUSEWARE",
+      "onboarding_date": "2023-12-23",
+      "critical_alerts": 2,
+      "alert_description": [
+        "Bouncing of the high value cheques.",
+        "Default in payment to the banks/ sundry debtors and other statutory bodies etc.",
+        "Credit Score dropped below 600",
+        "Never 90+ in last 12 Months on any loan",
+        "Write off ever reject / Suit Filed",
+        "DEBT TO INCOME RATIO",
+        "Abnormal Credit/Debit transactions",
+        "Cash Withdrawal >=50% of Average Income",
+        "Reduction in the stake of promoter / director.",
+        "Resignation of the key personnel and frequent changes in the management",
+        "Large number of transactions with inter-connected companies and large outstanding from such companies.",
+        "Significant movements in receivables, disproportionately higher than the growth in turnover and/or increase in ageing of the receivables."
+      ],
+      "logo_url": "",
+      "pan_card": "LJQTY4534C",
+      "listing_status": "Not Listed",
+      "no_Of_directors": "2",
+      "origin": "Maharahstra, India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 4,
+          "ChequeBounce": 0,
+          "NoOfDefault": 2,
+          "EBITDA": 19,
+          "Sales": 22922587,
+          "DirectorStatus": [
+            {
+              "DIN": 65874,
+              "Designation": "MANAGING DIRECTOR",
+              "Date": "24/06/2015",
+              "Dsc": "Yes",
+              "EndDate": ""
+            },
+            {
+              "DIN": 18584,
+              "Designation": "COO",
+              "Date": "01/02/2017",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "M S PRACO pvt ltd Rep by its Power Attorney R Frazer",
+            "Board of Directors PRACO amp other"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 16,
+          "NetProfitMargin": 18,
+          "NetCashAccuraltoNetSales": 0.89,
+          "ReturnOnCapitalEmployed": 24,
+          "DebtEquityRatio": [
+            1.5,
+            2.8,
+            2.5,
+            1.8
+          ],
+          "DSCR": [
+            1.15,
+            1.45,
+            1.7,
+            1.9
+          ],
+          "TOL_TNW": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            1.1,
+            0.8,
+            0.8,
+            1.5
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.2,
+            1.8,
+            2
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Write off 1 loan on 28-03-2024",
+        "Abnormal payments in march",
+        "EBITDA Margin is below 10"
+      ],
+      "warningAlerts": [
+        "2 Defaults in lifetime"
+      ],
+      "informationAlerts": [
+        "Cibil Score below 700",
+        "Loan given by Type 4 Lendors only"
+      ]
+    },
     {
       "id": "b518",
       "organization_name": "Sachin Mohite",

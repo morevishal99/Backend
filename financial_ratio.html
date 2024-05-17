@@ -1,0 +1,306 @@
+{% extends 'pending_base.html' %}
+
+{% block extend-content %}
+
+<script type="application/javascript">
+    function myFunction(param, button_id, user) {
+        var x = document.getElementById(param);
+        var y = document.getElementById(button_id);
+        if (x.style.display === "block") {
+            y.value = 'Financial Ratio Required';
+            y.innerHTML = 'Financial Ratio Required';
+            x.style.display = "none";
+        } else {
+            y.value = 'Financial Ratio Not Required';
+            y.innerHTML = 'Financial Ratio Not Required';
+            x.style.display = "block";
+
+        }
+        let csr = $("input[name=csrfmiddlewaretoken").val();
+        formdata = new FormData();
+        formdata.append('type', '_fr_btn')
+        formdata.append('user', user)
+        formdata.append('csrfmiddlewaretoken', csr)
+        $.ajax({
+            url: "{% url 'loan_app:update_details' loan_app_no %}",
+            method: "POST",
+            data: formdata,
+            processData: false,
+            contentType: false,
+            success: function (data) {
+                console.log(data)
+            },
+        });
+    }
+
+</script>
+
+<div class="content-wrapper">
+    <div class="col-md-18 grid-margin stretch-card">
+        
+        <div class="tab-pane fade show active" id="cibilapp" role="tabpanel"
+                            aria-labelledby="overview-tab">
+        <button class="btn btn-sm btn-primary" id="fr_button" {% if not view %} disabled {% endif %} 
+            onclick="myFunction('fr_data', 'fr_button','applicant')">{% if loan_details.applicant_fr_btn %}
+            Financial Ratio Not Required {% else %} Financial Ratio Required {% endif %}</button>
+            <div class="card-body" id="fr_data"
+                style="{% if loan_details.applicant_fr_btn %} display: block; {% else %} display : none {% endif %}">
+                <h4 class="card-title">Applicant Financial Details</h4>
+                <form method="POST" enctype="multipart/form-data">{% csrf_token %}
+                    <div class="form-group">
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Current Assets</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.current_assets|floatformat:2}}" class="form-control" name="c_asset" placeholder="Current Assets" />
+                                        <input type="text" value="{{applicant_data.loan_application_number}}"
+                                            name="application-number" hidden name="application-number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+
+                                    <label class="col-sm-5 col-form-label">Current Liabilities</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.current_liabilities|floatformat:2}}"  required class="form-control" name="c_lia" placeholder="Current Liabilities" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Debt (Loans)- Current Year</label>
+
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.debt_current_year|floatformat:2}}" required class="form-control" name="c_debt"
+                                            placeholder="Debt (Loans)- Current Year" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Debt (Loans)- Last Year
+                                    </label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.debt_last_year|floatformat:2}}" required class="form-control" name="c_last" placeholder="Debt (Loans)- Last Year
+                                                                                        " />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Equity (Capital & Reserve)
+                                    </label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.equity|floatformat:2}}" required class="form-control" name="c_equity" placeholder="Equity (Capital & Reserve)
+                                                                                        " />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Stock
+                                    </label>
+                                    <div class="col-sm-7">
+                                        <input type="number"  step="any" value="{{finr.stock|floatformat:2}}" required class="form-control" name="c_stock"
+                                            placeholder="Stock" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Net Profit</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.net_profit|floatformat:2}}" required class="form-control" name="c_netp"
+                                            placeholder="Net Profit" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Interest Paid</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.interest_paid|floatformat:2}}" required class="form-control" name="c_interest"
+                                            placeholder="Interest Paid" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Tax</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.tax|floatformat:2}}" required class="form-control" name="c_tax"
+                                            placeholder="Tax" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Gross Profit</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.gross_profit|floatformat:2}}" required class="form-control" name="c_grossp"
+                                            placeholder="Gross Profit" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Net Sales</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.sales|floatformat:2}}" required class="form-control" name="c_Sales"
+                                            placeholder="Net Sales" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Average Stock</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.average_stock|floatformat:2}}" required class="form-control" name="c_astock"
+                                            placeholder="Average Stock" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Debtors</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.debtors|floatformat:2}}" required class="form-control" name="c_debtors"
+                                            placeholder="Debtors" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Purchases</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any"  value="{{finr.purchases|floatformat:2}}" required class="form-control" name="c_purchases"
+                                            placeholder="Purchases" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Creditors</label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.creditors|floatformat:2}}" required class="form-control" name="c_creditors"
+                                            placeholder="Creditors" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Deprication
+                                    </label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.deprication|floatformat:2}}" required class="form-control" name="c_deprication"
+                                            placeholder="Deprication" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group row">
+                                    <label class="col-sm-5 col-form-label">Installment Paid During Year
+                                    </label>
+                                    <div class="col-sm-7">
+                                        <input type="number" step="any" value="{{finr.installment_last|floatformat:2}}" required class="form-control" name="c_ipd" placeholder="Installment Paid During Year
+                                                                                        " />
+                                    </div>
+                                </div>
+                            </div>
+                            
+                    </div>
+
+                        <button type="submit" {% if not view %} disabled  {% endif %} class="btn btn-primary mr-2" id="financialratio"
+                            name="financialratio">Submit</button><br><br>
+
+                </form>
+                <h4 style="text-align: center;">Interpretation of Balance Sheet And Profit & Loss A/C </h4>
+                <div class="container">
+                    <div class="card">
+                        <div class="table-responsive"
+                            style="border: 1px solid #000000; border-right: 1px solid #000000;">
+                            <table width="100%" class="table table-bordered table-hover table-striped">
+                                <tbody>
+                                    <tr>
+                                        <td style="border: 1px solid #000000;">Current Ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr1" value="{{finr.current_ratio|floatformat:2 }}" type="number"/>
+                                        </td>
+                                        <td style="border: 1px solid #000000;">Debt Equity ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr2"
+                                                value="{{finr.debt_equity_ratio |floatformat:2}}" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: 1px solid #000000;">Acid test ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr3" value="{{finr.acid_test_ratio|floatformat:2 }}" />
+                                        </td>
+                                        <td style="border: 1px solid #000000;">Working capital gap</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr4"
+                                                value="{{finr.working_capital_gap |floatformat:2}}" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: 1px solid #000000;">Interest Coverage Ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr5"
+                                                value="{{finr.interest_coverage_ratio |floatformat:2}}" />
+                                        </td>
+                                        <td style="border: 1px solid #000000;">Gross Profit Ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr6"
+                                                value="{{finr.gross_profit_ratio|floatformat:2 }}" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: 1px solid #000000;">Net Profit Ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input  class="form-control" readonly name="cr7" value="{{finr.net_profit_ratio |floatformat:2}}" />
+                                        </td>
+                                        <td style="border: 1px solid #000000;">Debtors Velocity Ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr8"
+                                                value="{{finr.debtors_velocity_ratio |floatformat:2}}" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="border: 1px solid #000000;">Creditors Velocity Ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr9"
+                                                value="{{finr.creditors_velocity_ratio|floatformat:2 }}" />
+                                        </td>
+                                        <td style="border: 1px solid #000000;">Stock Turnover Ratio</td>
+                                        <td style="border: 1px solid #000000;">
+                                            <input class="form-control" readonly name="cr10"
+                                                value="{{finr.stock_turnover_ratio|floatformat:2 }}" />
+                                        </td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
