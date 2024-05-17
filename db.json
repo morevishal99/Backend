@@ -1428,7 +1428,7 @@
       "origin": "Maharahstra, India",
       "ClientDetails": [
         {
-          "critical": 2,
+          "critical": 3,
           "warning": 3,
           "informatiom": 4,
           "ChequeBounce": 0,
