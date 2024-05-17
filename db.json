@@ -233,324 +233,24 @@
   ],
   "OrganizationData": [
     {
-      "id": "5771",
-      "organization_name": "PRACO HOUSEWARE PVT LTD",
-      "organization_type": "HOUSEWARE",
-      "onboarding_date": "2023-12-23",
-      "critical_alerts": 2,
+      "id": "2dd2",
+      "organization_name": "Nitin Raykar",
+      "organization_type": "Hardware store",
+      "onboarding_date": "2022-01-13",
+      "critical_alerts": 12,
       "alert_description": [
-        "Bouncing of the high value cheques.",
-        "Default in payment to the banks/ sundry debtors and other statutory bodies etc.",
         "Credit Score dropped below 600",
-        "Never 90+ in last 12 Months on any loan",
-        "Write off ever reject / Suit Filed",
-        "DEBT TO INCOME RATIO",
-        "Abnormal Credit/Debit transactions",
-        "Cash Withdrawal >=50% of Average Income",
-        "Reduction in the stake of promoter / director.",
-        "Resignation of the key personnel and frequent changes in the management",
-        "Large number of transactions with inter-connected companies and large outstanding from such companies.",
-        "Significant movements in receivables, disproportionately higher than the growth in turnover and/or increase in ageing of the receivables."
-      ],
-      "logo_url": "https://pracoonline.com/image/catalog/praco-logo.png",
-      "pan_card": "LJQTY4534C",
-      "listing_status": "Not Listed",
-      "no_Of_directors": "2",
-      "origin": "Maharahstra, India",
-      "ClientDetails": [
-        {
-          "critical": 2,
-          "warning": 3,
-          "informatiom": 4,
-          "ChequeBounce": 0,
-          "NoOfDefault": 2,
-          "EBITDA": 19,
-          "Sales": 22922587,
-          "DirectorStatus": [
-            {
-              "DIN": 65874,
-              "Designation": "MANAGING DIRECTOR",
-              "Date": "24/06/2015",
-              "Dsc": "Yes",
-              "EndDate": ""
-            },
-            {
-              "DIN": 18584,
-              "Designation": "COO",
-              "Date": "01/02/2017",
-              "Dsc": "Yes",
-              "EndDate": ""
-            }
-          ],
-          "CourtCases": [
-            "M S PRACO pvt ltd Rep by its Power Attorney R Frazer",
-            "Board of Directors PRACO amp other"
-          ],
-          "EBIDAMargin": 8.5,
-          "ReturnOnEquity": 16,
-          "NetProfitMargin": 18,
-          "NetCashAccuraltoNetSales": 0.89,
-          "ReturnOnCapitalEmployed": 24,
-          "DebtEquityRatio": [
-            1.5,
-            2.8,
-            2.5,
-            1.8
-          ],
-          "DSCR": [
-            1.15,
-            1.45,
-            1.7,
-            1.9
-          ],
-          "TOL_TNW": [
-            1,
-            1,
-            2,
-            2
-          ],
-          "CurrentRatio": [
-            1,
-            1.2,
-            1.5,
-            1.1
-          ],
-          "QuickRatio": [
-            1.1,
-            0.8,
-            0.8,
-            1.5
-          ],
-          "RoNW": [
-            20,
-            30,
-            32,
-            18
-          ],
-          "NetSalestoTotalAssests": [
-            1.5,
-            1.2,
-            1.8,
-            2
-          ]
-        }
-      ],
-      "criticalAlerts": [
-        "Write off 1 loan on 28-03-2024",
-        "Abnormal payments in march",
-        "EBITDA Margin is below 10"
-      ],
-      "warningAlerts": [
-        "2 Defaults in lifetime"
-      ],
-      "informationAlerts": [
-        "Cibil Score below 700",
-        "Loan given by Type 4 Lendors only"
-      ]
-    },
-    {
-      "id": "5772",
-      "organization_name": "SAI Group and Company",
-      "organization_type": "DRINKS & WATER",
-      "onboarding_date": "2022-01-21",
-      "critical_alerts": 1,
-      "alert_description": [
-        "Significant inconsistencies within the annual report (between various sections).",
-        "Frequent change in accounting period and/or accounting policies. Change in accounting period yes. They are testing for accounting policy",
+        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
         "Movement of an account from one bank to another",
-        "Non-submission of audited financials of borrower and associate companies",
-        "(No. of days delay in submission of audited financials beyond due date)",
-        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)",
-        "Gross Current Assets as days sales (Absolute Value)",
-        "Decrease consistently in Interest Coverage Ratio (as on last day of the period) (How much % of decrease in ICR)",
-        "Debt To Equity (Deviation (decrease in %) from estimates)",
-        "DSCR (Absolute value) (deteroration in DSCR)",
-        "TOL/TNW  (Absolute Value)",
-        "Current Ratio (Absolute value)",
-        "Quick Ratio (Deviation (decrease in %) from estimates)",
-        "RoNW (Deviation (decrease in %) from estimates)",
-        "Net Sales To Total Assets (Absolute Value)",
-        "Operating Cash Flow to Current Liabilities (Operating Cash Flow to Current Liabilities)",
-        "Operating Cash Flow to Total Serviceable Debt (Operating Cash Flow to Total Serviceable Debt)",
-        "EBITDA Margin (Deviation (decrease in %) from estimates)",
+        "Frequent change in accounting period and/or accounting policies.",
         "Net Cash accrual to Net sales (Absolute Value)",
         "Net Profit Margin (Deviation (decrease in %) from estimates)",
-        "Return on Capital Employed (Absolute Value)",
-        "Return on Equity (Absolute Value)"
-      ],
-      "logo_url": "https://www.sisnde.com/images/logo/logo.png",
-      "pan_card": "BJBTI4561Y",
-      "listing_status": "Not Listed",
-      "no_Of_directors": "1",
-      "origin": "Maharahstra, India",
-      "ClientDetails": [
-        {
-          "critical": 1,
-          "warning": 0,
-          "informatiom": 1,
-          "ChequeBounce": 0,
-          "NoOfDefault": 2,
-          "EBITDA": 14,
-          "Sales": 4512587,
-          "DirectorStatus": [
-            {
-              "DIN": 64564,
-              "Designation": "MANAGING DIRECTOR",
-              "Date": "01/04/2011",
-              "Dsc": "Yes",
-              "EndDate": ""
-            }
-          ],
-          "CourtCases": [],
-          "EBIDAMargin": 11.5,
-          "ReturnOnEquity": 12,
-          "NetProfitMargin": 20,
-          "NetCashAccuraltoNetSales": 1.1,
-          "ReturnOnCapitalEmployed": 20,
-          "DebtEquityRatio": [
-            3,
-            2.2,
-            2,
-            1.8
-          ],
-          "DSCR": [
-            1.1,
-            1.9,
-            2.0,
-            2.1
-          ],
-          "TOL_TNW": [
-            1,
-            2,
-            3,
-            1
-          ],
-          "CurrentRatio": [
-            1.5,
-            1.1,
-            1,
-            0.9
-          ],
-          "QuickRatio": [
-            1.3,
-            0.4,
-            0.9,
-            1.1
-          ],
-          "RoNW": [
-            30,
-            20,
-            32,
-            28
-          ],
-          "NetSalestoTotalAssests": [
-            2.5,
-            1.8,
-            1.1,
-            2
-          ]
-        }
-      ],
-      "criticalAlerts": [
-        "Debt to equity ratio is High"
-      ],
-      "warningAlerts": [],
-      "informationAlerts": [
-        "Less Number of Banking Transactions"
-      ]
-    },
-    {
-      "id": "b518",
-      "organization_name": "Manora pvt ltd",
-      "organization_type": "Travel and Tourism",
-      "onboarding_date": "2022-02-01",
-      "critical_alerts": 8,
-      "alert_description": [
-        "Large number of transactions with inter-connected companies and large outstanding from such companies.",
-        "Audited Financials not submitted",
-        "Change In External Ratings",
-        "Credit Score dropped below 600",
-        "Frequent change in statutory auditors (2 consecutive years)",
-        "Movement of an account from one bank to another",
-        "CIBIL Alerts",
-        "Checque Bounces Alerts"
-      ],
-      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2E_OrjS7w-vO9-CPOhYycpkWkPx4lE9jPsA&usqp=CAU",
-      "pan_card": "BKBPT8834Z",
-      "listing_status": "Not Listed",
-      "no_Of_directors": "1",
-      "origin": "Maharahstra, India",
-      "ClientDetails": [
-        {
-          "critical": 2,
-          "warning": 3,
-          "informatiom": 4,
-          "ChequeBounce": 1,
-          "NoOfDefault": 4,
-          "EBITDA": 24,
-          "Sales": 22154321,
-          "DirectorStatus": [
-            {
-              "DIN": 65874,
-              "Designation": "Founder",
-              "Date": "31/01/2019",
-              "Dsc": "Yes",
-              "EndDate": ""
-            }
-          ],
-          "CourtCases": [],
-          "EBIDAMargin": 7.8,
-          "ReturnOnEquity": 5,
-          "NetProfitMargin": 16,
-          "NetCashAccuraltoNetSales": 0.7,
-          "ReturnOnCapitalEmployed": 22,
-          "DebtEquityRatio": [
-            2.5,
-            2.2,
-            3.5,
-            1.8
-          ],
-          "DSCR": [
-            1.35,
-            1.25,
-            1.6,
-            1.8
-          ],
-          "TOL_TNW": [
-            1,
-            2,
-            1,
-            1
-          ],
-          "CurrentRatio": [
-            1.35,
-            1.25,
-            1.2,
-            1.15
-          ],
-          "QuickRatio": [
-            1.5,
-            1,
-            0.8,
-            1
-          ],
-          "RoNW": [
-            30,
-            20,
-            20,
-            20
-          ],
-          "NetSalestoTotalAssests": [
-            2,
-            1.8,
-            1,
-            1
-          ]
-        }
-      ],
-      "criticalAlerts": [
-        "Writeoff in past-292426",
-        "High Active Balance 8290869 Balance"
+        "Net Cash Accrual To Total Debt (Absolute Value)",
+        "Frequent change in rating agency",
+        "Resignation of independent directors within a short span of time",
+        "Increasing employee attrition at borrower end",
+        "Continuous flow of funds among intergroup companies (no. of transactions)",
+        "Transactions with Debtors"
       ],
       "warningAlerts": [
         "1 Cheque return",
@@ -559,209 +259,122 @@
       ],
       "informationAlerts": [
         "High Loan Count - 25",
-        "8990000 Total PastDueAmount",
+        "747727 Total PastDueAmount",
         "Monthly Expense/Total Income is 14.69%",
-        "3 RTGS Payments less than 2 lakhs "
-      ]
+        "8 RTGS Payments less than 2 lakhs "
+      ],
+      "logo_url": "https://lh5.googleusercontent.com/p/AF1QipNafscPmdzqNFsahEGpZraDtViWywgRIeyK7Blu=w143-h143-n-k-no",
+      "pan_card": "AAKCS5432G",
+      "listing_status": "Public",
+      "no_Of_directors": "12",
+      "origin": "South Korea"
     },
     {
-      "id": "c518",
-      "organization_name": "Dhairya Avenue",
-      "organization_type": "Clothing Brand",
-      "onboarding_date": "2019-05-14",
-      "critical_alerts": 2,
+      "id": "8088",
+      "organization_name": "Uttam Super Store",
+      "organization_type": "Private",
+      "onboarding_date": "2022-03-13",
+      "critical_alerts": 10,
       "alert_description": [
-        "Large number of transactions with inter-connected companies and large outstanding from such companies."
+        "Credit Score dropped below 600",
+        "Significant inconsistencies within the annual report (between various sections).",
+        "Quick Ratio (Deviation (decrease in %) from estimates)",
+        "TOL/TNW (Absolute Value)",
+        "Current Ratio (Absolute value)",
+        "Debt To Equity (Deviation (decrease in %) from estimates)",
+        "Total Debt/EBITDA (Absolute Value)",
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Resignation of independent directors within a short span of time",
+        "Transactions with Creditor"
       ],
-      "logo_url": "https://cdn.dotpe.in/longtail/store-logo/1089338/8r2QFSb8.jpeg",
-      "pan_card": "EYZPM8834B",
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
+      "logo_url": "blob:http://127.0.0.1:5173/1bd098b4-f0ff-4099-be76-3496f3c0cda7",
+      "pan_card": "7725632820",
       "listing_status": "Not Listed",
-      "no_Of_directors": "1",
-      "origin": "Maharahstra, India",
-      "ClientDetails": [
-        {
-          "critical": 2,
-          "warning": 3,
-          "informatiom": 2,
-          "ChequeBounce": 2,
-          "NoOfDefault": 3,
-          "EBITDA": 18,
-          "Sales": 15234321,
-          "DirectorStatus": [
-            {
-              "DIN": 23146,
-              "Designation": "Managing Director",
-              "Date": "11/08/2021",
-              "Dsc": "Yes",
-              "EndDate": ""
-            }
-          ],
-          "CourtCases": [
-            "Dhairya Avenue Director's Fraud case",
-            "Land Aquision case Dhairya Avenue"
-          ],
-          "EBIDAMargin": 8.5,
-          "ReturnOnEquity": 8,
-          "NetProfitMargin": 12,
-          "NetCashAccuraltoNetSales": 0.7,
-          "ReturnOnCapitalEmployed": 22,
-          "DebtEquityRatio": [
-            1.5,
-            2.1,
-            2.1,
-            2.7
-          ],
-          "DSCR": [
-            1.5,
-            1.45,
-            1.21,
-            2.1
-          ],
-          "TOL_TNW": [
-            1.1,
-            2.2,
-            1.8,
-            2.2
-          ],
-          "CurrentRatio": [
-            1,
-            1.2,
-            1.5,
-            1.1
-          ],
-          "QuickRatio": [
-            0.9,
-            1.1,
-            1.5,
-            1.2
-          ],
-          "RoNW": [
-            20,
-            30,
-            32,
-            18
-          ],
-          "NetSalestoTotalAssests": [
-            1.5,
-            1.8,
-            1.1,
-            2.7
-          ]
-        }
-      ],
-      "criticalAlerts": [
-        "Frequent change in statutory auditors (2 consecutive years)",
-        "Disputes among Management/Promoters/JV Partners"
-      ],
-      "warningAlerts": [
-        "Increasing employee attrition at borrower end",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 21",
-        "Business expansion to areas outside core business/backward or forward integrationt"
-      ]
+      "no_Of_directors": "",
+      "origin": "Pune,India"
     },
     {
-      "id": "360d",
-      "organization_name": "Mills CNC",
-      "organization_type": "Automobile",
-      "onboarding_date": "2022-05-16",
-      "critical_alerts": 2,
+      "id": "9bc6",
+      "organization_name": "A1 Refrigeration and Coolers",
+      "organization_type": "-",
+      "onboarding_date": "2003-05-01",
+      "critical_alerts": 9,
       "alert_description": [
-        "Bouncing of the high value cheques.",
-        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
-      ],
-      "logo_url": "https://www.millscnc.co.uk/wp-content/themes/mills-cnc/images/svg/logo.svg",
-      "pan_card": "ABCPM8838A",
-      "listing_status": "Active",
-      "no_Of_directors": "0",
-      "origin": "Pune",
-      "ClientDetails": [
-        {
-          "critical": 2,
-          "warning": 3,
-          "informatiom": 2,
-          "ChequeBounce": 2,
-          "NoOfDefault": 3,
-          "EBITDA": 18,
-          "Sales": 15234321,
-          "DirectorStatus": [
-            {
-              "DIN": 23146,
-              "Designation": "Managing Director",
-              "Date": "11/08/2021",
-              "Dsc": "Yes",
-              "EndDate": ""
-            }
-          ],
-          "CourtCases": [
-            "Dhairya Avenue Director's Fraud case",
-            "Land Aquision case Dhairya Avenue"
-          ],
-          "EBIDAMargin": 8.5,
-          "ReturnOnEquity": 8,
-          "NetProfitMargin": 12,
-          "NetCashAccuraltoNetSales": 0.7,
-          "ReturnOnCapitalEmployed": 22,
-          "DebtEquityRatio": [
-            1.5,
-            2.1,
-            2.1,
-            2.7
-          ],
-          "DSCR": [
-            1.5,
-            1.45,
-            1.21,
-            2.1
-          ],
-          "TOL_TNW": [
-            1.1,
-            2.2,
-            1.8,
-            2.2
-          ],
-          "CurrentRatio": [
-            1,
-            1.2,
-            1.5,
-            1.1
-          ],
-          "QuickRatio": [
-            0.9,
-            1.1,
-            1.5,
-            1.2
-          ],
-          "RoNW": [
-            20,
-            30,
-            32,
-            18
-          ],
-          "NetSalestoTotalAssests": [
-            1.5,
-            1.8,
-            1.1,
-            2.7
-          ]
-        }
-      ],
-      "criticalAlerts": [
-        "Frequent change in statutory auditors (2 consecutive years)",
-        "Disputes among Management/Promoters/JV Partners"
+        "Credit Score dropped below 600",
+        "Movement of an account from one bank to another",
+        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
+        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)",
+        "Decrease consistently in Interest Coverage Ratio (as on last day of the period) (How much % of decrease in ICR)",
+        "Net Sales To Total Assets (Absolute Value)",
+        "Operating Cash Flow to Current Liabilities (Operating Cash Flow to Current Liabilities)",
+        "Pledging/selling of promoters' shares in the borrower company due to financial stress",
+        "Transactions with Creditor"
       ],
       "warningAlerts": [
-        "Increasing employee attrition at borrower end",
+        "1 Cheque return",
         "Cash Deposit >=50% of Net Revenue",
         "Cash Deposit>=2000000"
       ],
       "informationAlerts": [
-        "High Loan Count - 21",
-        "Business expansion to areas outside core business/backward or forward integrationt"
-      ]
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
+      "logo_url": "",
+      "pan_card": "AAATT4321F",
+      "listing_status": "-",
+      "no_Of_directors": "0",
+      "origin": "Pune, India"
+    },
+    {
+      "id": "9eef",
+      "organization_name": "Uttam Mobile Shoppee",
+      "organization_type": "Shopee",
+      "onboarding_date": "2023-02-04",
+      "critical_alerts": 13,
+      "alert_description": [
+        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,",
+        "Credit Score dropped below 600",
+        "Never 90+ in last 12 Months on any loan",
+        "Write off ever reject / Suit Filed",
+        "Movement of an account from one bank to another",
+        "Significant inconsistencies within the annual report (between various sections).",
+        "Net Cash accrual to Net sales (Absolute Value)",
+        "Return on Capital Employed (Absolute Value)",
+        "Return on Equity (Absolute Value)",
+        "Change In External Ratings",
+        "Resignation of independent directors within a short span of time",
+        "Business expansion to areas outside core business/backward or forward integration",
+        "Frequent change in statutory auditors (2 consecutive years)"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
+      "logo_url": "",
+      "pan_card": "AAACM5432D",
+      "listing_status": "na",
+      "no_Of_directors": "0",
+      "origin": "maharashtra"
     },
     {
       "id": "8f84",
@@ -865,6 +478,126 @@
       ]
     },
    
+  
+  
+    {
+      "id": "8f85",
+      "organization_name": "Dhanashree Mall",
+      "organization_type": "Private",
+      "onboarding_date": "2019-01-15",
+      "critical_alerts": 3,
+      "alert_description": [
+        "DEBT TO INCOME RATIO",
+        "Abnormal Credit/Debit transactions",
+        "Cash Withdrawal >=50% of Average Income"
+      ],
+      "logo_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/491455230.jpg?k=06be2341a43e4052bfae9f0c004fa28eec5dd10d6b6e0e563985c2ab7cc2cb31&o=&hp=1",
+      "pan_card": "CNXPM6634D",
+      "listing_status": "Not public",
+      "no_Of_directors": "3",
+      "origin": "India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
+          "DirectorStatus": [
+            {
+              "DIN": 23146,
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 8,
+          "NetProfitMargin": 12,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            1.5,
+            2.1,
+            2.1,
+            2.7
+          ],
+          "DSCR": [
+            1.5,
+            1.45,
+            1.21,
+            2.1
+          ],
+          "TOL_TNW": [
+            1.1,
+            2.2,
+            1.8,
+            2.2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            0.9,
+            1.1,
+            1.5,
+            1.2
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.8,
+            1.1,
+            2.7
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
+      ]
+    },
+    {
+      "id": "201e",
+      "organization_name": "Aakash Education pvt ltd",
+      "organization_type": "Private Ltd",
+      "onboarding_date": "2022-02-16",
+      "critical_alerts": 2,
+      "alert_description": [
+        "Bouncing of the high value cheques.",
+        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
+      ],
+      "logo_url": "https://www.adgully.com/img/400x300/202109/untitled-design-81.png.jpg",
+      "pan_card": "",
+      "listing_status": "NA",
+      "no_Of_directors": "0",
+      "origin": "India"
+    },
+  
     {
       "id": "8f86",
       "organization_name": "Cosco Sports",
@@ -876,11 +609,195 @@
         "Abnormal Credit/Debit transactions",
         "Cash Withdrawal >=50% of Average Income"
       ],
-      "logo_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/491455230.jpg?k=06be2341a43e4052bfae9f0c004fa28eec5dd10d6b6e0e563985c2ab7cc2cb31&o=&hp=1",
+      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWD0PFc0MH6nnHhg0wYw5Q-TYVDfGOiaZjfg&usqp=CAU",
       "pan_card": "CNXPM6634D",
       "listing_status": "Not public",
       "no_Of_directors": "3",
       "origin": "India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
+          "DirectorStatus": [
+            {
+              "DIN": 23146,
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 8,
+          "NetProfitMargin": 12,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            1.5,
+            2.1,
+            2.1,
+            2.7
+          ],
+          "DSCR": [
+            1.5,
+            1.45,
+            1.21,
+            2.1
+          ],
+          "TOL_TNW": [
+            1.1,
+            2.2,
+            1.8,
+            2.2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            0.9,
+            1.1,
+            1.5,
+            1.2
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.8,
+            1.1,
+            2.7
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
+      ]
+    },
+    {
+      "id": "bb18",
+      "organization_name": "Car CUpid Car Accessories",
+      "organization_type": "Automobile",
+      "onboarding_date": "2023-01-29",
+      "critical_alerts": 16,
+      "alert_description": [
+        "Significant movements in receivables, disproportionately higher than the growth in turnover and/or increase in ageing of the receivables.",
+        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,",
+        "Never 90+ in last 12 Months on any loan",
+        "Write off ever reject / Suit Filed",
+        "Abnormal Credit/Debit transactions",
+        "Cash Withdrawal >=50% of Average Income",
+        "Reduction in the stake of promoter / director.",
+        "Movement of an account from one bank to another",
+        "Significant inconsistencies within the annual report (between various sections).",
+        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
+        "TOL/TNW (Absolute Value)",
+        "EBITDA Margin (Deviation (decrease in %) from estimates)",
+        "Net Cash accrual to Net sales (Absolute Value)",
+        "Adjusted TNW (Deviation (decrease in %) from estimates)",
+        "Net Cash Accrual To Total Debt (Absolute Value)",
+        "Business expansion to areas outside core business/backward or forward integration"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
+      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapLoH2z4GVi2E0iYpg8HdXODjaqFxZ_h_hw&usqp=CAU",
+      "pan_card": "AAACC3214H",
+      "listing_status": "Public",
+      "no_Of_directors": "14",
+      "origin": "United States"
+    },
+    {
+      "id": "1140",
+      "organization_name": "Shreeman Amrutulya",
+      "organization_type": "Coffee shop",
+      "onboarding_date": "2023-04-05",
+      "critical_alerts": 19,
+      "alert_description": [
+        "Abnormal Credit/Debit transactions",
+        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
+        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)",
+        "Gross Current Assets as days sales (Absolute Value)",
+        "Debt To Equity (Deviation (decrease in %) from estimates)",
+        "Current Ratio (Absolute value)",
+        "TOL/TNW (Absolute Value)",
+        "Operating Cash Flow to Total Serviceable Debt (Operating Cash Flow to Total Serviceable Debt)",
+        "Return on Capital Employed (Absolute Value)",
+        "Net Profit Margin (Deviation (decrease in %) from estimates)",
+        "Return on Equity (Absolute Value)",
+        "Net Sales (Deviation (decrease in %) from estimates)",
+        "Pledging/selling of promoters' shares in the borrower company due to financial stress",
+        "Regulatory changes adversely affecting the industry",
+        "Business expansion to areas outside core business/backward or forward integration",
+        "Negative News about Borrower/Industry",
+        "Negative News other than specific for Borrower/Industry",
+        "Audited Financials not submitted",
+        "Continuous flow of funds among intergroup companies (no. of transactions)"
+      ],
+      "warningAlerts": [
+        "1 Cheque return",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 25",
+        "747727 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "8 RTGS Payments less than 2 lakhs "
+      ],
+      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmE7WfKz7FDDOGUneceWExI_HugEJneRGxeg&usqp=CAU",
+      "pan_card": "AAACA8765C",
+      "listing_status": "Public",
+      "no_Of_directors": "11",
+      "origin": "USA"
+    },
+    {
+      "id": "c518",
+      "organization_name": "Dhairya Avenue",
+      "organization_type": "Clothing Brand",
+      "onboarding_date": "2019-05-14",
+      "critical_alerts": 2,
+      "alert_description": [
+        "Large number of transactions with inter-connected companies and large outstanding from such companies."
+      ],
+      "logo_url": "https://cdn.dotpe.in/longtail/store-logo/1089338/8r2QFSb8.jpeg",
+      "pan_card": "EYZPM8834B",
+      "listing_status": "Not Listed",
+      "no_Of_directors": "1",
+      "origin": "Maharahstra, India",
       "ClientDetails": [
         {
           "critical": 2,
@@ -1068,7 +985,107 @@
       ]
     },
     {
-      "id": "8f90",
+      "id": "360d",
+      "organization_name": "Mills CNC",
+      "organization_type": "Automobile",
+      "onboarding_date": "2022-05-16",
+      "critical_alerts": 2,
+      "alert_description": [
+        "Bouncing of the high value cheques.",
+        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
+      ],
+      "logo_url": "https://www.millscnc.co.uk/wp-content/themes/mills-cnc/images/svg/logo.svg",
+      "pan_card": "ABCPM8838A",
+      "listing_status": "Active",
+      "no_Of_directors": "0",
+      "origin": "Pune",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 2,
+          "ChequeBounce": 2,
+          "NoOfDefault": 3,
+          "EBITDA": 18,
+          "Sales": 15234321,
+          "DirectorStatus": [
+            {
+              "DIN": 23146,
+              "Designation": "Managing Director",
+              "Date": "11/08/2021",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "Dhairya Avenue Director's Fraud case",
+            "Land Aquision case Dhairya Avenue"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 8,
+          "NetProfitMargin": 12,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            1.5,
+            2.1,
+            2.1,
+            2.7
+          ],
+          "DSCR": [
+            1.5,
+            1.45,
+            1.21,
+            2.1
+          ],
+          "TOL_TNW": [
+            1.1,
+            2.2,
+            1.8,
+            2.2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            0.9,
+            1.1,
+            1.5,
+            1.2
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.8,
+            1.1,
+            2.7
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Frequent change in statutory auditors (2 consecutive years)",
+        "Disputes among Management/Promoters/JV Partners"
+      ],
+      "warningAlerts": [
+        "Increasing employee attrition at borrower end",
+        "Cash Deposit >=50% of Net Revenue",
+        "Cash Deposit>=2000000"
+      ],
+      "informationAlerts": [
+        "High Loan Count - 21",
+        "Business expansion to areas outside core business/backward or forward integrationt"
+      ]
+    },
+    {
+      "id": "8f89",
       "organization_name": "Punawala law pvt ltd",
       "organization_type": "Private",
       "onboarding_date": "2011-06-11",
@@ -1078,7 +1095,7 @@
         "Abnormal Credit/Debit transactions",
         "Cash Withdrawal >=50% of Average Income"
       ],
-      "logo_url": "https://www.poonawallafinance.com/wp-content/themes/poonawalla-child/assets/images/adar-new.jpg",
+      "logo_url": "https://www.shutterstock.com/image-vector/pl-law-logo-design-vector-260nw-2296686097.jpg",
       "pan_card": "CNXPM6634D",
       "listing_status": "Not public",
       "no_Of_directors": "3",
@@ -1169,350 +1186,336 @@
       ]
     },
     {
-      "id": "8f85",
-      "organization_name": "Dhanashree Mall",
-      "organization_type": "Private",
-      "onboarding_date": "2019-01-15",
-      "critical_alerts": 3,
+      "id": "5772",
+      "organization_name": "SAI Group and Company",
+      "organization_type": "DRINKS & WATER",
+      "onboarding_date": "2022-01-21",
+      "critical_alerts": 1,
       "alert_description": [
-        "DEBT TO INCOME RATIO",
-        "Abnormal Credit/Debit transactions",
-        "Cash Withdrawal >=50% of Average Income"
+        "Significant inconsistencies within the annual report (between various sections).",
+        "Frequent change in accounting period and/or accounting policies. Change in accounting period yes. They are testing for accounting policy",
+        "Movement of an account from one bank to another",
+        "Non-submission of audited financials of borrower and associate companies",
+        "(No. of days delay in submission of audited financials beyond due date)",
+        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)",
+        "Gross Current Assets as days sales (Absolute Value)",
+        "Decrease consistently in Interest Coverage Ratio (as on last day of the period) (How much % of decrease in ICR)",
+        "Debt To Equity (Deviation (decrease in %) from estimates)",
+        "DSCR (Absolute value) (deteroration in DSCR)",
+        "TOL/TNW  (Absolute Value)",
+        "Current Ratio (Absolute value)",
+        "Quick Ratio (Deviation (decrease in %) from estimates)",
+        "RoNW (Deviation (decrease in %) from estimates)",
+        "Net Sales To Total Assets (Absolute Value)",
+        "Operating Cash Flow to Current Liabilities (Operating Cash Flow to Current Liabilities)",
+        "Operating Cash Flow to Total Serviceable Debt (Operating Cash Flow to Total Serviceable Debt)",
+        "EBITDA Margin (Deviation (decrease in %) from estimates)",
+        "Net Cash accrual to Net sales (Absolute Value)",
+        "Net Profit Margin (Deviation (decrease in %) from estimates)",
+        "Return on Capital Employed (Absolute Value)",
+        "Return on Equity (Absolute Value)"
       ],
-      "logo_url": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/491455230.jpg?k=06be2341a43e4052bfae9f0c004fa28eec5dd10d6b6e0e563985c2ab7cc2cb31&o=&hp=1",
-      "pan_card": "CNXPM6634D",
-      "listing_status": "Not public",
-      "no_Of_directors": "3",
-      "origin": "India",
+      "logo_url": "https://www.sisnde.com/images/logo/logo.png",
+      "pan_card": "BJBTI4561Y",
+      "listing_status": "Not Listed",
+      "no_Of_directors": "1",
+      "origin": "Maharahstra, India",
       "ClientDetails": [
         {
-          "critical": 2,
-          "warning": 3,
-          "informatiom": 2,
-          "ChequeBounce": 2,
-          "NoOfDefault": 3,
-          "EBITDA": 18,
-          "Sales": 15234321,
+          "critical": 1,
+          "warning": 0,
+          "informatiom": 1,
+          "ChequeBounce": 0,
+          "NoOfDefault": 2,
+          "EBITDA": 14,
+          "Sales": 4512587,
           "DirectorStatus": [
             {
-              "DIN": 23146,
-              "Designation": "Managing Director",
-              "Date": "11/08/2021",
+              "DIN": 64564,
+              "Designation": "MANAGING DIRECTOR",
+              "Date": "01/04/2011",
               "Dsc": "Yes",
               "EndDate": ""
             }
           ],
-          "CourtCases": [
-            "Dhairya Avenue Director's Fraud case",
-            "Land Aquision case Dhairya Avenue"
-          ],
-          "EBIDAMargin": 8.5,
-          "ReturnOnEquity": 8,
-          "NetProfitMargin": 12,
-          "NetCashAccuraltoNetSales": 0.7,
-          "ReturnOnCapitalEmployed": 22,
+          "CourtCases": [],
+          "EBIDAMargin": 11.5,
+          "ReturnOnEquity": 12,
+          "NetProfitMargin": 20,
+          "NetCashAccuraltoNetSales": 1.1,
+          "ReturnOnCapitalEmployed": 20,
           "DebtEquityRatio": [
-            1.5,
-            2.1,
-            2.1,
-            2.7
+            3,
+            2.2,
+            2,
+            1.8
           ],
           "DSCR": [
-            1.5,
-            1.45,
-            1.21,
+            1.1,
+            1.9,
+            2,
             2.1
           ],
           "TOL_TNW": [
-            1.1,
-            2.2,
-            1.8,
-            2.2
+            1,
+            2,
+            3,
+            1
           ],
           "CurrentRatio": [
-            1,
-            1.2,
             1.5,
-            1.1
+            1.1,
+            1,
+            0.9
           ],
           "QuickRatio": [
+            1.3,
+            0.4,
             0.9,
-            1.1,
-            1.5,
-            1.2
+            1.1
           ],
           "RoNW": [
-            20,
             30,
+            20,
             32,
-            18
+            28
           ],
           "NetSalestoTotalAssests": [
-            1.5,
+            2.5,
             1.8,
             1.1,
-            2.7
+            2
           ]
         }
       ],
       "criticalAlerts": [
+        "Debt to equity ratio is High"
+      ],
+      "warningAlerts": [],
+      "informationAlerts": [
+        "Less Number of Banking Transactions"
+      ]
+    },
+    {
+      "id": "b518",
+      "organization_name": "Manora pvt ltd",
+      "organization_type": "Travel and Tourism",
+      "onboarding_date": "2022-02-01",
+      "critical_alerts": 8,
+      "alert_description": [
+        "Large number of transactions with inter-connected companies and large outstanding from such companies.",
+        "Audited Financials not submitted",
+        "Change In External Ratings",
+        "Credit Score dropped below 600",
         "Frequent change in statutory auditors (2 consecutive years)",
-        "Disputes among Management/Promoters/JV Partners"
+        "Movement of an account from one bank to another",
+        "CIBIL Alerts",
+        "Checque Bounces Alerts"
+      ],
+      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2E_OrjS7w-vO9-CPOhYycpkWkPx4lE9jPsA&usqp=CAU",
+      "pan_card": "BKBPT8834Z",
+      "listing_status": "Not Listed",
+      "no_Of_directors": "1",
+      "origin": "Maharahstra, India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 4,
+          "ChequeBounce": 1,
+          "NoOfDefault": 4,
+          "EBITDA": 24,
+          "Sales": 22154321,
+          "DirectorStatus": [
+            {
+              "DIN": 65874,
+              "Designation": "Founder",
+              "Date": "31/01/2019",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [],
+          "EBIDAMargin": 7.8,
+          "ReturnOnEquity": 5,
+          "NetProfitMargin": 16,
+          "NetCashAccuraltoNetSales": 0.7,
+          "ReturnOnCapitalEmployed": 22,
+          "DebtEquityRatio": [
+            2.5,
+            2.2,
+            3.5,
+            1.8
+          ],
+          "DSCR": [
+            1.35,
+            1.25,
+            1.6,
+            1.8
+          ],
+          "TOL_TNW": [
+            1,
+            2,
+            1,
+            1
+          ],
+          "CurrentRatio": [
+            1.35,
+            1.25,
+            1.2,
+            1.15
+          ],
+          "QuickRatio": [
+            1.5,
+            1,
+            0.8,
+            1
+          ],
+          "RoNW": [
+            30,
+            20,
+            20,
+            20
+          ],
+          "NetSalestoTotalAssests": [
+            2,
+            1.8,
+            1,
+            1
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Writeoff in past-292426",
+        "High Active Balance 8290869 Balance"
       ],
       "warningAlerts": [
-        "Increasing employee attrition at borrower end",
+        "1 Cheque return",
         "Cash Deposit >=50% of Net Revenue",
         "Cash Deposit>=2000000"
       ],
       "informationAlerts": [
-        "High Loan Count - 21",
-        "Business expansion to areas outside core business/backward or forward integrationt"
+        "High Loan Count - 25",
+        "8990000 Total PastDueAmount",
+        "Monthly Expense/Total Income is 14.69%",
+        "3 RTGS Payments less than 2 lakhs "
       ]
     },
     {
-      "id": "201e",
-      "organization_name": "Aakash Education pvt ltd",
-      "organization_type": "Private Ltd",
-      "onboarding_date": "2022-02-16",
+      "id": "5771",
+      "organization_name": "PRACO HOUSEWARE PVT LTD",
+      "organization_type": "HOUSEWARE",
+      "onboarding_date": "2023-12-23",
       "critical_alerts": 2,
       "alert_description": [
         "Bouncing of the high value cheques.",
-        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,"
-      ],
-      "logo_url": "https://lh5.googleusercontent.com/p/AF1QipMAW-yS5c5ahPlgLkIwUa2f4tIIKVbMYLFumIuW=w143-h143-n-k-no",
-      "pan_card": "",
-      "listing_status": "NA",
-      "no_Of_directors": "0",
-      "origin": "India"
-    },
-    {
-      "id": "8088",
-      "organization_name": "Uttam Super Store",
-      "organization_type": "Private",
-      "onboarding_date": "2022-03-13",
-      "critical_alerts": 10,
-      "alert_description": [
-        "Credit Score dropped below 600",
-        "Significant inconsistencies within the annual report (between various sections).",
-        "Quick Ratio (Deviation (decrease in %) from estimates)",
-        "TOL/TNW (Absolute Value)",
-        "Current Ratio (Absolute value)",
-        "Debt To Equity (Deviation (decrease in %) from estimates)",
-        "Total Debt/EBITDA (Absolute Value)",
-        "Frequent change in statutory auditors (2 consecutive years)",
-        "Resignation of independent directors within a short span of time",
-        "Transactions with Creditor"
-      ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
-      "logo_url": "blob:http://127.0.0.1:5173/1bd098b4-f0ff-4099-be76-3496f3c0cda7",
-      "pan_card": "7725632820",
-      "listing_status": "Not Listed",
-      "no_Of_directors": "",
-      "origin": "Pune,India"
-    },
-    {
-      "id": "9eef",
-      "organization_name": "Uttam Mobile Shoppee",
-      "organization_type": "Shopee",
-      "onboarding_date": "2023-02-04",
-      "critical_alerts": 13,
-      "alert_description": [
-        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,",
+        "Default in payment to the banks/ sundry debtors and other statutory bodies etc.",
         "Credit Score dropped below 600",
         "Never 90+ in last 12 Months on any loan",
         "Write off ever reject / Suit Filed",
-        "Movement of an account from one bank to another",
-        "Significant inconsistencies within the annual report (between various sections).",
-        "Net Cash accrual to Net sales (Absolute Value)",
-        "Return on Capital Employed (Absolute Value)",
-        "Return on Equity (Absolute Value)",
-        "Change In External Ratings",
-        "Resignation of independent directors within a short span of time",
-        "Business expansion to areas outside core business/backward or forward integration",
-        "Frequent change in statutory auditors (2 consecutive years)"
-      ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
-      "logo_url": "",
-      "pan_card": "AAACM5432D",
-      "listing_status": "na",
-      "no_Of_directors": "0",
-      "origin": "maharashtra"
-    },
-    {
-      "id": "9bc6",
-      "organization_name": "A1 Refrigeration and Coolers",
-      "organization_type": "-",
-      "onboarding_date": "2003-05-01",
-      "critical_alerts": 9,
-      "alert_description": [
-        "Credit Score dropped below 600",
-        "Movement of an account from one bank to another",
-        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
-        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)",
-        "Decrease consistently in Interest Coverage Ratio (as on last day of the period) (How much % of decrease in ICR)",
-        "Net Sales To Total Assets (Absolute Value)",
-        "Operating Cash Flow to Current Liabilities (Operating Cash Flow to Current Liabilities)",
-        "Pledging/selling of promoters' shares in the borrower company due to financial stress",
-        "Transactions with Creditor"
-      ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
-      "logo_url": "",
-      "pan_card": "AAATT4321F",
-      "listing_status": "-",
-      "no_Of_directors": "0",
-      "origin": "Pune, India"
-    },
-    {
-      "id": "2dd2",
-      "organization_name": "Nitin Raykar",
-      "organization_type": "Hardware store",
-      "onboarding_date": "2022-01-13",
-      "critical_alerts": 12,
-      "alert_description": [
-        "Credit Score dropped below 600",
-        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
-        "Movement of an account from one bank to another",
-        "Frequent change in accounting period and/or accounting policies.",
-        "Net Cash accrual to Net sales (Absolute Value)",
-        "Net Profit Margin (Deviation (decrease in %) from estimates)",
-        "Net Cash Accrual To Total Debt (Absolute Value)",
-        "Frequent change in rating agency",
-        "Resignation of independent directors within a short span of time",
-        "Increasing employee attrition at borrower end",
-        "Continuous flow of funds among intergroup companies (no. of transactions)",
-        "Transactions with Debtors"
-      ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
-      "logo_url": "https://lh5.googleusercontent.com/p/AF1QipNafscPmdzqNFsahEGpZraDtViWywgRIeyK7Blu=w143-h143-n-k-no",
-      "pan_card": "AAKCS5432G",
-      "listing_status": "Public",
-      "no_Of_directors": "12",
-      "origin": "South Korea"
-    },
-    {
-      "id": "bb18",
-      "organization_name": "Car CUpid Car Accessories",
-      "organization_type": "Automobile",
-      "onboarding_date": "2023-01-29",
-      "critical_alerts": 16,
-      "alert_description": [
-        "Significant movements in receivables, disproportionately higher than the growth in turnover and/or increase in ageing of the receivables.",
-        "Default in payment to the banks/ sundry debtors and other statutory bodies, etc.,",
-        "Never 90+ in last 12 Months on any loan",
-        "Write off ever reject / Suit Filed",
+        "DEBT TO INCOME RATIO",
         "Abnormal Credit/Debit transactions",
         "Cash Withdrawal >=50% of Average Income",
         "Reduction in the stake of promoter / director.",
-        "Movement of an account from one bank to another",
-        "Significant inconsistencies within the annual report (between various sections).",
-        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
-        "TOL/TNW (Absolute Value)",
-        "EBITDA Margin (Deviation (decrease in %) from estimates)",
-        "Net Cash accrual to Net sales (Absolute Value)",
-        "Adjusted TNW (Deviation (decrease in %) from estimates)",
-        "Net Cash Accrual To Total Debt (Absolute Value)",
-        "Business expansion to areas outside core business/backward or forward integration"
+        "Resignation of the key personnel and frequent changes in the management",
+        "Large number of transactions with inter-connected companies and large outstanding from such companies.",
+        "Significant movements in receivables, disproportionately higher than the growth in turnover and/or increase in ageing of the receivables."
+      ],
+      "logo_url": "https://pracoonline.com/image/catalog/praco-logo.png",
+      "pan_card": "LJQTY4534C",
+      "listing_status": "Not Listed",
+      "no_Of_directors": "2",
+      "origin": "Maharahstra, India",
+      "ClientDetails": [
+        {
+          "critical": 2,
+          "warning": 3,
+          "informatiom": 4,
+          "ChequeBounce": 0,
+          "NoOfDefault": 2,
+          "EBITDA": 19,
+          "Sales": 22922587,
+          "DirectorStatus": [
+            {
+              "DIN": 65874,
+              "Designation": "MANAGING DIRECTOR",
+              "Date": "24/06/2015",
+              "Dsc": "Yes",
+              "EndDate": ""
+            },
+            {
+              "DIN": 18584,
+              "Designation": "COO",
+              "Date": "01/02/2017",
+              "Dsc": "Yes",
+              "EndDate": ""
+            }
+          ],
+          "CourtCases": [
+            "M S PRACO pvt ltd Rep by its Power Attorney R Frazer",
+            "Board of Directors PRACO amp other"
+          ],
+          "EBIDAMargin": 8.5,
+          "ReturnOnEquity": 16,
+          "NetProfitMargin": 18,
+          "NetCashAccuraltoNetSales": 0.89,
+          "ReturnOnCapitalEmployed": 24,
+          "DebtEquityRatio": [
+            1.5,
+            2.8,
+            2.5,
+            1.8
+          ],
+          "DSCR": [
+            1.15,
+            1.45,
+            1.7,
+            1.9
+          ],
+          "TOL_TNW": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "CurrentRatio": [
+            1,
+            1.2,
+            1.5,
+            1.1
+          ],
+          "QuickRatio": [
+            1.1,
+            0.8,
+            0.8,
+            1.5
+          ],
+          "RoNW": [
+            20,
+            30,
+            32,
+            18
+          ],
+          "NetSalestoTotalAssests": [
+            1.5,
+            1.2,
+            1.8,
+            2
+          ]
+        }
+      ],
+      "criticalAlerts": [
+        "Write off 1 loan on 28-03-2024",
+        "Abnormal payments in march",
+        "EBITDA Margin is below 10"
       ],
       "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
+        "2 Defaults in lifetime"
       ],
       "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
-      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapLoH2z4GVi2E0iYpg8HdXODjaqFxZ_h_hw&usqp=CAU",
-      "pan_card": "AAACC3214H",
-      "listing_status": "Public",
-      "no_Of_directors": "14",
-      "origin": "United States"
-    },
-    {
-      "id": "1140",
-      "organization_name": "Shreeman Amrutulya",
-      "organization_type": "Coffee shop",
-      "onboarding_date": "2023-04-05",
-      "critical_alerts": 19,
-      "alert_description": [
-        "Abnormal Credit/Debit transactions",
-        "Non-submission of audited financials of borrower and associate companies (No. of days delay in submission of audited financials beyond due date)",
-        "Borrower, promoters/director/associates/ group companies in the lists of defaulters (Is the borrower, promoters/director/ associates/ group companies in the lists of defaulters?)",
-        "Gross Current Assets as days sales (Absolute Value)",
-        "Debt To Equity (Deviation (decrease in %) from estimates)",
-        "Current Ratio (Absolute value)",
-        "TOL/TNW (Absolute Value)",
-        "Operating Cash Flow to Total Serviceable Debt (Operating Cash Flow to Total Serviceable Debt)",
-        "Return on Capital Employed (Absolute Value)",
-        "Net Profit Margin (Deviation (decrease in %) from estimates)",
-        "Return on Equity (Absolute Value)",
-        "Net Sales (Deviation (decrease in %) from estimates)",
-        "Pledging/selling of promoters' shares in the borrower company due to financial stress",
-        "Regulatory changes adversely affecting the industry",
-        "Business expansion to areas outside core business/backward or forward integration",
-        "Negative News about Borrower/Industry",
-        "Negative News other than specific for Borrower/Industry",
-        "Audited Financials not submitted",
-        "Continuous flow of funds among intergroup companies (no. of transactions)"
-      ],
-      "warningAlerts": [
-        "1 Cheque return",
-        "Cash Deposit >=50% of Net Revenue",
-        "Cash Deposit>=2000000"
-      ],
-      "informationAlerts": [
-        "High Loan Count - 25",
-        "747727 Total PastDueAmount",
-        "Monthly Expense/Total Income is 14.69%",
-        "8 RTGS Payments less than 2 lakhs "
-      ],
-      "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmE7WfKz7FDDOGUneceWExI_HugEJneRGxeg&usqp=CAU",
-      "pan_card": "AAACA8765C",
-      "listing_status": "Public",
-      "no_Of_directors": "11",
-      "origin": "USA"
+        "Cibil Score below 700",
+        "Loan given by Type 4 Lendors only"
+      ]
     }
   ]
 }
